@@ -25,7 +25,7 @@
   const addstudent = async () => {
     const name = prompt("name") || "";
     const { insert_students } = await http.startExecuteMyMutation(
-      OperationDocsStore.addOne(name)
+      OperationDocsStore.addOne(name),
     );
     students.update((n) => [...n, insert_students.returning[0]]);
   };
