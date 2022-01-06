@@ -17,6 +17,8 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-replace": "^3.0.1",
+    "dotenv": "^10.0.0",
     "eslint": "^8.5.0",
     "eslint-plugin-sonarjs": "^0.11.0",
     "eslint-plugin-svelte3": "^3.2.1",
